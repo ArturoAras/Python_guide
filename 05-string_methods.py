@@ -1,7 +1,7 @@
 #Así como existen las built-in functions (ver doc 03), Python posee métodos nativos para trabajar con strings
 
 city = "manchester"
-cities = ["london", "brighton", "liverpool", "leicester"]
+cities = ["london", "brighton", "liverpool", "leicester"] #Este dato es una lista, se verá en el archivo 06-lists.py
 
 print(city.capitalize()) #Convierte el primer caracter en mayúscula
 print(city.count("e")) #Cuenta cuantas veces se repite el parámetro en el string

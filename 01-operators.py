@@ -3,15 +3,18 @@
 #Al igual que en las matemáticas, en Python se pueden utilizar operadores matemáticos para trabajar con los datos de tipo numérico
 a = 9
 b = 5
+print("------------------------TRABAJO CON OPERADORES------------------------")
+print("Operamos con los números 9 y 5")
 
-print("------------------------ACÁ EMPIEZA EL FLUJO DE EJECUCIÓN------------------------")
-print(a + b) #El operador + suma las variables
-print(a - b) #El operador - resta las variables
-print(a * b) #El operador * multiplica las variables
-print(a / b) #El operador / divide la primera variable por la segunda
-print(a ** b) #El operador ** eleva un número por otro
-print(a % b) #El operador de módulo devuelve el resto de una división entera
-print(a // b) #El operador de división baja devuelve el resultado de la división pero siempre elimina todos los decimales
+print("------------------------EMPIEZA EL FLUJO DE EJECUCIÓN------------------------")
+print("------------------OPERADORES ARITMÉTICOS------------------")
+print("Suma:",a + b) #El operador + suma las variables
+print("Resta:",a - b) #El operador - resta las variables
+print("Multiplicación:",a * b) #El operador * multiplica las variables
+print("División:",a / b) #El operador / de división devuelve siempre un dato flotante
+print("Exponente:",a ** b) #El operador ** eleva un número por otro
+print("Módulo:",a % b) #El operador de módulo devuelve el resto de una división entera
+print("División baja:",a // b) #El operador de división baja devuelve el resultado de la división pero siempre elimina todos los decimales
 
 
 ################################################################################################################################################
@@ -19,13 +22,30 @@ print(a // b) #El operador de división baja devuelve el resultado de la divisi�
 
 #Los operadores de comparación también son utilizados en matemática básica y sirven para comparar dos o más datos y obtener un resultado booleano
 print("------------------------OPERADORES DE COMPARACIÓN------------------------")
-print(a > b) #Operador "mayor que", en este caso devuelve TRUE
-print(a < b) #Operador "menor que", en este caso devuelve FALSE
-print(a >= b) #Operador "mayor o igual que", en este caso devuelve TRUE
-print(a <= b) #Operador "menor o igual que", en este caso devuelve FALSE
-print(a == b) #Operador "igual que", en este caso devuelve FALSE
+print("¿Es 9 mayor que 5?", a > b) #Operador "mayor que", en este caso devuelve TRUE
+print("¿Es 9 menor que 5?",a < b) #Operador "menor que", en este caso devuelve FALSE
+print("¿Es 9 mayor o igual que 5?",a >= b) #Operador "mayor o igual que", en este caso devuelve TRUE
+print("¿Es 9 menor o igual que 5?",a <= b) #Operador "menor o igual que", en este caso devuelve FALSE
+print("¿Es 9 igual que 5?",a == b) #Operador "igual que", en este caso devuelve FALSE
+print("¿Es 9 distinto que 5?",a != b) #Operador "distinto que", en este caso devuelve TRUE
 
-#Estos últimos cinco operadores son solamente de COMPARACIÓN
+
+################################################################################################################################################
+
+
+#En Python también existen operadores que le asignan un valor a una variable
+print("---------------------------OPERADORES DE ASIGNACIÓN---------------------------")
+print("a = 9 |", a)
+print("b = 5 |", b)
+a += b # Suma el valor de B a A y lo guarda en A
+print("a += b |", a)
+a  = 9 #Devolvemos el valor original a A, ya que en la línea 39 se convirtió en 14
+a -= b #Resta el valor de B a A y lo guarda en A
+print("a -= b", a)
+
+#####################
+print("Todos los operadores aritméticos pueden ir seguidos con un signo \"=\" para convertirlos en operadores de asignación, así realizarán la operación matemática correspondiente y sobreescribirán el resultado en la variable")
+#####################
 
 
 ################################################################################################################################################
